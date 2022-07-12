@@ -1,0 +1,62 @@
+.dash-table-tooltip {
+    background-color: #444444 !important;
+    font-family: var(--bs-body-font-family) !important; 
+    color: var(--bs-body-color)!important;
+	white-space: pre !Important;  /* Controls Word Wrapping  google for other values*/
+    }
+
+
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    /*background-color: #444444 !important;*/
+    color: var(--bs-body-color);
+    font-family: var(--bs-body-font-family);
+    font-size: 90% !important;
+    font-weight: var(--bs-body-font-weight);
+    --accent: #1EAEDB !important;
+    --selected-background: #36f8ff !important;
+    --selected-color: #3c3c3c !important;
+     
+} 
+
+
+
+.dash-spreadsheet-container .dash-spreadsheet-inner th {
+
+    background-color: var(--bs-blue) !Important;
+    color: var(--bs-body-color) !important;
+    text-align: center !Important;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+   	font-weight: var(--bs-body-font-weight)!important;
+	white-space: normal !Important;  /* Controls Word Wrapping  google for other values*/
+ 
+}
+
+.dash-filter {
+    --text-color: var(--bs-body-color) !important;
+}
+
+.column-header--sort {
+    color:var(--bs-body-color) !important;
+
+}
+
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]){
+    color:white !important;
+    border:none !important;
+}
+
+
+.table-overview {
+    --bs-table-bg: #663e3e00;
+    --bs-table-striped-bg: #4d4d4d;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #575757;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #525252;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #575757;
+  }

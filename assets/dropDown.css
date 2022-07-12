@@ -1,0 +1,63 @@
+
+/* For multi-dropdown format the way selections appear*/
+.Select-value-label {
+	color:whitesmoke  !Important;
+	/*font-family: var(--font-family-Main) !Important;*/	
+	background-color: var(--bs-blue) !Important; 
+	border: 0/*1px solid black !Important;*/
+	/*font-size: 95% !Important;
+	font-weight: bold !Important;*/
+	}
+
+
+.Select--multi .Select-value {
+	color:whitesmoke  !Important;
+	/*font-family: var(--font-family-Main) !Important;*/	
+	background-color: var(--bs-blue) !Important; 
+	border: 0/*1px solid black !Important;*/
+	/*font-size: 95% !Important;
+	font-weight: bold !Important;*/
+	}
+
+.Select-control {
+     background-color: var(--bs-body-bg)!Important; 
+    border: 0;
+    /*font-size: 95% !Important;
+    font-weight: bold !Important;*/
+    }
+
+.Select-menu-outer {
+    color:var(--bs-blue) !Important;
+    font-family: var(--font-family-Main) !Important;	
+    background-color: white!Important; 
+    border: 1px solid black !Important;
+    /*font-size: 95% !Important;
+    font-weight: bold !Important;*/
+    }
+
+/* Placeholders */
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    bottom: 0;
+    color: black !Important;
+	font-family: var(--font-family-Main) !Important;
+	font-size: 100% !Important;
+    left: 0;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+	
+
+
+/* Border etc. when focused*/	
+.Select.is-focused:not(.is-open) > .Select-control{
+	border-color:#D1D1D1 !Important;
+	box-shadow: none !Important;
+}
