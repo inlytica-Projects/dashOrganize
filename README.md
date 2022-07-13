@@ -28,7 +28,7 @@ I am trying to keep the focus on organization. So, I have stripped out as much f
 Provides the Dash instance to other modules. If you care why a separate module is necessary, then take a look at the bottom of the page. Otherwise, just include the file as written and you will be fine. **However, do note that because we are dynamically building a layout, we need to include ```suppress_callback_exceptions=True``` to suppress warnings about callbacks that are not initially in the application.**
 
 **assets**</br>
-Directory containing format files. In this case, I am using the bootstrap CSS Darkly Theme from Bootswatch (https://bootswatch.com) who, by the way, offers these amazing designs for free.
+Directory containing format files. In this case, I am using the bootstrap CSS Darkly Theme from Bootswatch (https://bootswatch.com) who, by the way, offer these amazing designs for free.
 
 **components.py**</br>
 A library of Dash components. I've gone back and forth on the idea of a components file because, at times, it seems as if I am re-creating the Plotly wheel. I finally settled on using it because it helps keep keep formatting consistent across all of my components. It reduces the need to clutter up my layouts with formatting elements. And, because I work with multiple clients, once I get components formatted in the way that I am happy with, I can easily reuse them. (This file is for example purposes. My actual working file is so large that I have thought about breaking it down even more.)
