@@ -24,7 +24,7 @@ I am trying to keep the focus on organization. So, I have stripped out as much f
 
 ```
 
-#### app.py
+**app.py**</br>
 Provides the Dash instance to other modules. If you try to include the ```app = Dash(__name__, suppress_callback_exceptions=True)``` line in ```index.py```and then import it into the tabs modules, you will get ```ImportError: cannot import name ...``` . This is because you have created a circular import. In this case, for example, loading ```index.py``` requires ```animalsFeet.py``` while, at the same time, ```animalsFeet.py``` requires the Dash instance supplied by ```index.py```. It would be a little like Bob needing a key from Susan to start his car and Susan needing Bob's car to bring him the key.
 
 #### assets
